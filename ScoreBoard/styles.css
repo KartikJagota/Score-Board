@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+}
+
+h3 {
+  margin-bottom: 0;
+  position: relative;
+  top: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 170px;
+  color: #F94F6D
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+  background-color: black;
+  height: 200px;
+  width: 250px;
+  position: relative;
+  bottom: 50px;
+  border-radius: 25px;
+}
+
+.add1 {
+  height: 40px;
+  width: 60px;
+  border: solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.add2{
+  height: 40px;
+  width: 60px;
+  border: solid black;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor:pointer;
+}
+.add2:active {
+  box-shadow: 2px 2px 5px
+}
+
+.add3{
+  height: 40px;
+  width: 60px;
+  border: solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor:pointer;
+}
+.add1:active{
+  box-shadow: 2px 2px 5px
+}
+.add2:active{
+  box-shadow: 2px 2px 5px
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f25b50 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f25b50 5%, #c62d1f 100%);
+	background-color:#f25b50;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

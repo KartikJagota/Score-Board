@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ScoreBoard</title>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <body background="vs.jpg">
+    <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <br>
+                <div class="score">
+                  <p id="count-el-1">0</p>
+                </div>
+                <div class="add-score">
+                  <button class="add1" onclick="add1()">+1</button>
+                  <button class="add2" onclick="add2()">+2</button>
+                  <button class="add3" onclick="add3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <br>
+                <div class="score">
+                  <p id="count-el-2">0</p>
+                </div>
+                <div class="add-score">
+                  <button type="button" class="add1" onclick="adding1()">+1</button>
+                  <button type="button" class="add2" onclick="adding2()">+2</button>
+                  <button type="button" class="add3" onclick="adding3()">+3</button>
+                </div>
+            </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="myButton" onclick="newGame()">New Game</button>
+        <script src="index.js"></script>
+  </body>
+</html>
